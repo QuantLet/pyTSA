@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_GDPChinaDiff'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet produces and plot time series of seasonally and firstly differenced Chinese quarterly GDP and its ACF for the period from 1992 to 2017.'
+
+Keywords:            'time series, seasonality, stationarity, autocorrelation, KPSS, ACF'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+Datafile:            gdpquarterlychina1992.1-2017.4.csv
+
+

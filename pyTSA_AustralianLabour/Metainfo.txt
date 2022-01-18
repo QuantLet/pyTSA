@@ -1,0 +1,15 @@
+
+Name of Quantlet:    'pyTSA_AustralianLabour'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet  plots time series and additive decomposition results of monthly employed total persons from February 1978 to November 2018 (in
+thousands) (example 2.5, Figures 2.13-2.16 from the Book).'
+
+Keywords:            'time series, additive decomposition, smoothing, employment, seasonality, visualisation'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:            AustraliaEmployedTotalPersons.xlsx
+
+

@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_SimGauss'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet draws 1000 random numbers  from the normal  distribution, produces histogram and time series plot'
+
+Keywords:            'random, distribution, Gaussian, normal'
+
+Author:              Huang Changquan, Alla Petukhina
+
+
+

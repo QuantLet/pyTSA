@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_ExRateWN'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet builds log-returns and double difference of log series for quarterly exchange rate of GBP to NZD and plots time series and their ACF   for the time span from March 1991 to September 2000 (example 2.3, Figures 2.5-2.7 from the Book)'
+
+Keywords:            'time series, autocorrelation, exchange rate, white noise, visualisation, log-returns, Ljung-Box test, ACF'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:            ExchRate NZ per UK.txt
+
+

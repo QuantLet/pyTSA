@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_GDPChinaDecomposition'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet performs additive and multiplicative decomposition of Chinese quarterly GDP from 1992 to 2017 and  plots results (Figures 2.21-2.23 in the book)'
+
+Keywords:            'time series, autocorrelation, Chinese GDP, plot, visualisation'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:            gdpquarterlychina1992.1-2017.4.csv
+
+

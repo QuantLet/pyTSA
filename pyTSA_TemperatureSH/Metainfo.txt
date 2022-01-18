@@ -1,0 +1,15 @@
+
+Name of Quantlet:    'pyTSA_TemperatureSH'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet plots time series of monthly temperature volatility for the southern hemisphere, its first order difference and its ACF for the period from January 1850 to December 2007'
+
+Keywords:            'simulation, random walk, Gaussian, normal'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:            Southtemperature.txt
+
+
+

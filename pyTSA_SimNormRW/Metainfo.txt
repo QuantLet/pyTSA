@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_SimNormRW'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet generates three simulated paths of a standard Gaussian random walk'
+
+Keywords:            'simulation, random walk, Gaussian, normal'
+
+Author:              Huang Changquan, Alla Petukhina
+
+
+

@@ -1,0 +1,15 @@
+
+Name of Quantlet:    'pyTSA_AntiDiabetSales'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet build and plots time series, log  and their rolling std of the of the anti-diabetic drug sales in Australia, as well as seasonally differenced series for the period from July 1991 to June 2008.'
+
+Keywords:            'time series,  stationarity,  seasonality, stochastic process,  moving average, plot '
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+Datafile:            AntidiabeticDrugSales.csv
+
+
+

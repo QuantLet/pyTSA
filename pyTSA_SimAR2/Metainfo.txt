@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_SimAR2'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet simulates and plots AR(2) time series and its ACF and PACF.'
+
+Keywords:            'time series,  stationarity, autocorrelation, PACF, ACF, simulation, stochastic process, ARMA'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+
+

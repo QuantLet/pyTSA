@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_causality'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet simulates and plots causal and noncausal AR(5) - autoregressive processes as describe in Example 3.9 in the book'
+
+Keywords:            'time series,  stationarity, autocorrelation,  simulation, stochastic process, ARMA, moving average, autoregression, causality'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+
+

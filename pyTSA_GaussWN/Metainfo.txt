@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_GaussWN'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet generates Gaussian white noise'
+
+Keywords:            'simulation, white noise, Gaussian, normal'
+
+Author:              Huang Changquan, Alla Petukhina
+
+
+

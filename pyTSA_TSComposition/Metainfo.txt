@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_TSComposition'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet  produces the examples for various ways of composition of simple time series and plots results(Figures 2.10-2.11 from the Book).'
+
+Keywords:            'time series, additive composition, multiplicative composition, visualisation'
+
+Author:              Huang Changquan, Alla Petukhina
+
+
+
+

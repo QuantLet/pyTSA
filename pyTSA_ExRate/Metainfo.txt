@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_ExRate'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet  plots time series and their ACF&PACF of quarterly exchange rate of GBP to NZD  for the time span from March 1991 to September 2000 (example 2.2, Figures 2.1-2.3 from the Book).'
+
+Keywords:            'time series, autocorrelation, exchange rate, visualisation, log-returns, PACF, ACF'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:           ExchRate NZ per UK.txt
+
+

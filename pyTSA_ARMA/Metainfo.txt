@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_ARMA'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet simulates and plots ARMA(2,2) - autoregressive moving average process time series, its ACF and PACF'
+
+Keywords:            'time series,  stationarity, autocorrelation, PACF, ACF, simulation, stochastic process, ARMA, moving average, autoregression'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+
+

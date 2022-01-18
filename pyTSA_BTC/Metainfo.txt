@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_BTC'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet produces plots of closing daily prices, log-returns and their ACF for Time series of BTC daily prices from June 23, 2017 to June 22, 2018.'
+
+Keywords:            'time series, BTC, Bitcoin, autocorrelation, log-returns'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+Datafile:            BitcoinPrice17-6-23-18-6-22.xlsx
+
+
