@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_NaoARMA'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet plots  the monthly mean of North Atlantic Oscillation (NAO) index since January 1950 till December 2019, ots ACF and PACF, further fits ARMA model and performs Ljung-Box statistics'
+
+Keywords:            'time series,  stationarity, autocorrelation, PACF, ACF, ARMA, moving average, autoregression,  Ljung-Box'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+
+

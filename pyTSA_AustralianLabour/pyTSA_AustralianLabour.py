@@ -13,12 +13,12 @@ aults['2013-01':'2017-01'].plot(); plt.show()
 month_plot(aults); plt.show() #Plot seasonal plots
 aultsdeca = seasonal_decompose(aults, model = 'additive')
 aultsdeca.plot(); plt.show()
-aultsdeca.resid = aultsdeca.resid.dropna()
-acf_pacf_fig(aultsdeca.resid, both = False, lag = 48)
-ar = aultsdeca.resid
+df = pd.DataFrame(data = { 'resid'  : aultsdeca.resid})
+df = df.dropna()
+acf_pacf_fig(df, both = False, lag = 48)
+ar = df
 rolm = pd.Series.rolling(ar, window = 36, center = True).mean()
 rolstd = pd.Series.rolling(ar, window = 36, center = True).std()
-#plt.set_size_inches(18.5, 10.5)
 plt.plot(aultsdeca.resid, label = 'dec resid')
 plt.plot(rolm, label = 'resid roll mean', linestyle = '--' )
 plt.plot(rolstd, label = 'resid roll std', linestyle = ':')

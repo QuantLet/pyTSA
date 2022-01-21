@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from pandas.plotting import register_matplotlib_converters
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from statsmodels.tsa.stattools import kpss
 a10 = pd.read_csv('AntidiabeticDrugSales.csv', header = None)
 dates = pd.date_range(start = '1991-07', periods = len(a10), freq = 'M')

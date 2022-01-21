@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_Chaos'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet produces Chaos like a White Noise and saves in csv file'
+
+Keywords:            'time series, White noise, ACF, PACF, simulation'
+
+Author:              Huang Changquan, Alla Petukhina
+
+
+

@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-#import plot_acf, plot_pacf
 from statsmodels.tsa.stattools import acf
 from PythonTsa.plot_acf_pacf import acf_pacf_fig
 from statsmodels.stats.diagnostic import acorr_ljungbox

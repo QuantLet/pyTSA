@@ -21,8 +21,9 @@ plt.title('Multiplicative Decomposition')
 #fig.set_size_inches(18.5, 10.5)
 fig.tight_layout(pad = 1.5)
 plt.show()
-xdecm.resid = xdecm.resid.dropna()
-acf_pacf_fig(xdecm.resid, both = False, lag = 20)
+df = pd.DataFrame(data = { 'resid'  : xdecm.resid})
+df = df.dropna()
+acf_pacf_fig(df, both = False, lag = 20)
 xhwfit = ExponentialSmoothing(x,trend = 'add',seasonal = 'add', seasonal_periods = 4).fit()
 ax1 = plt.subplot(411);x.plot();
 plt.setp(ax1.get_xticklabels(),visible = False); 
