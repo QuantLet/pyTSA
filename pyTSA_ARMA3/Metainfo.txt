@@ -1,0 +1,13 @@
+
+Name of Quantlet:    'pyTSA_ARMA3'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet demonstrates the fitting of the ARMA model to simulated time series'
+
+Keywords:            'time series,  stationarity, autocorrelation, PACF, ACF, simulation, Box Jenkins Anylsis, ARMA, KPSS'
+
+Author[New]:         Huang Changquan, Alla Petukhina
+
+
+

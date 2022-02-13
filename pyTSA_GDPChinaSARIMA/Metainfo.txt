@@ -1,0 +1,14 @@
+
+Name of Quantlet:    'pyTSA_GDPChinaSARIMA'
+
+Published in:        'Applied Time Series Analysis and Forecasting with Python'
+
+Description:         'This Quantlet builds plots time series and ACF of Chinese quarterly GDP from 1992 to 2017'
+
+Keywords:            'time series, autocorrelation, Chinese GDP, plot, visualisation'
+
+Author:              Huang Changquan, Alla Petukhina
+
+Datafile:            gdpquarterlychina1992.1-2017.4.csv
+
+

@@ -13,15 +13,19 @@ register_matplotlib_converters()
 plt.plot(a10, label = 'a10')
 plt.plot(rolma10, label = 'a10 roll mean', linestyle = '--')
 plt.plot(rolstda10, label = 'a10 roll std', linestyle = ':')
-plt.legend(); plt.show()
+plt.legend(); plt.show(); #plt.savefig('pyTSA_AntiDiabetSales_fig3-7.png', dpi = 1200, 
+                          #bbox_inches='tight', transparent = True);
 loga10 = np.log(a10)
 rolmloga10 = pd.Series.rolling(loga10, window = 36, center = True).mean()
 rolstdloga10 = pd.Series.rolling(loga10, window = 36, center = True).std()
 plt.plot(loga10, label = 'loga10')
 plt.plot(rolmloga10, label = 'loga10 roll mean', linestyle = '--')
 plt.plot(rolstdloga10, label = 'loga10 roll std', linestyle = ':')
-plt.legend(); plt.show()
+plt.legend(); plt.show() #plt.savefig('pyTSA_AntiDiabetSales_fig3-8.png', dpi = 1200, 
+                          #bbox_inches='tight', transparent = True);
 dloga10 = loga10.diff(12)
 dloga10 = dloga10.dropna()
-dloga10.plot(); plt.show()
+dloga10.plot(); plt.savefig('pyTSA_AntiDiabetSales_fig3-9.png', dpi = 1200, 
+                          bbox_inches ='tight', transparent = True, legend = None);
+plt.show();
 kpss(dloga10, regression = 'c')
