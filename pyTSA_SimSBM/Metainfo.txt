@@ -1,5 +1,5 @@
 
-Name of Quantlet:    'pyTSA_USUnempGDP'
+Name of Quantlet:    'pyTSA_ReturnsPG'
 
 Published in:        'Applied Time Series Analysis and Forecasting with Python'
 
