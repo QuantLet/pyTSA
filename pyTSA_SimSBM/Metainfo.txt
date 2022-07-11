@@ -1,6 +1,6 @@
 
 
-Name of Quantlet:    'pyTSA_SimBM'
+Name of Quantlet:    'pyTSA_SimSBM'
 
 Published in:        'Applied Time Series Analysis and Forecasting with Python'
 
