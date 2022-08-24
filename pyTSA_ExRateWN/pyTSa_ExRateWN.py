@@ -13,8 +13,7 @@ dlogxts = dlogxts.dropna() #delete "NaN"
 dlogxts.plot(marker = 'o', markersize = 5)
 plt.title('Difference of Logarithm of the ExchRate NZ per UK')
 plt.savefig('pyTSA_ExRateWN_fig2-5.png', dpi = 1200, 
-             bbox_inches ='tight', transparent = True);
-plt.show()
+             bbox_inches ='tight', transparent = True); plt.show()
 acf_pacf_fig(dlogxts, both = False, lag = 17)
 plt.savefig('pyTSA_ExRateWN_fig2-6.png', dpi = 1200, 
             bbox_inches ='tight', transparent = True);
@@ -27,6 +26,6 @@ ddlogxts = dlogxts.diff(1)
 ddlogxts = ddlogxts.dropna()
 acf_pacf_fig(ddlogxts, both = False, lag = 17)
 plt.savefig('pyTSA_ExRateWN_fig2-7.png', dpi = 1200, 
-             bbox_inches ='tight', transparent = True);
+             bbox_inches ='tight', transparent = True); plt.show()
 r2,q2,p2 = acf(ddlogxts,nlags = 35,qstat = True)
 p2
