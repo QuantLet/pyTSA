@@ -11,16 +11,23 @@ naots = nao['index']# automatically become a Series, see below
 type(nao)
 type(naots)
 naots.plot()
-plt.show()
+plt.savefig('pyTSA_NaoARMA_fig4-1.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True); plt.show()
 acf_pacf_fig(naots, both = True, lag = 48)
+plt.savefig('pyTSA_NaoARMA_fig4-2.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True); plt.show()
 sm.tsa.stattools.kpss(naots, regression = "c", lags = 50)
 ar1 = ARMA(naots, order = (1,0)).fit(trend = 'c')
 print(ar1.summary())
 resid1 = ar1.resid
 acf_pacf_fig(resid1, both = True, lag = 48)
+plt.savefig('pyTSA_NaoARMA_fig4-3.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True); plt.show()
 plot_LB_pvalue(resid1, noestimatedcoef = 1, nolags = 30) 
-	# noestimatedcoef = number of estimated coefficients
-	# nolags = max number of added terms in LB statistic
+plt.savefig('pyTSA_NaoARMA_fig4-4.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True); plt.show()
 ar1.plot_predict(start = '2010-04', end = '2019-12')
+plt.savefig('pyTSA_NaoARMA_fig4-5.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True); plt.show()
 ma1 = ARMA(naots, order = (0,1)).fit(trend = 'nc')
 ma1.aic; ma1.bic; ma1.hqic
