@@ -22,9 +22,9 @@ Author[New]:         Huang Changquan, Alla Petukhina
 
 ![Picture1](pyTSA_SimAR2_fig3-14.png)
 
-![Picture2](pyTSA_SimAR2_fig3-14.png)
+![Picture2](pyTSA_SimAR2_fig3-15.png)
 
-![Picture3](pyTSA_SimAR2_fig3-14.png)
+![Picture3](pyTSA_SimAR2_fig3-16.png)
 
 ### PYTHON Code
 ```python
