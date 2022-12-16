@@ -22,7 +22,10 @@ plt.title('$ 2\sin(2\pi t/50 + 0.3\pi)$ + N(0,$4.2ˆ2$)')
 px.plot(ax = fig.add_subplot(414))
 plt.title('$ 2\sin(2\pi t/50  + 0.3\pi)$ N(0,$4.2ˆ2$)')
 fig.tight_layout(pad = 1.5)
-plt.xlabel('Time'); plt.show()
+plt.xlabel('Time'); 
+plt.savefig('pyTSA_TSComposition_fig2-10.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True);
+plt.show()
 fApAx = f_t + p_t + x_n
 fAp_x = (f_t + p_t) * x_n
 fAx_p = (f_t + x_n) * p_t
@@ -38,4 +41,7 @@ plt.title('($0.2 + 0.1t$ + N(0,$4.2ˆ2$))$2\sin(2\pi t/50 + 0.3\pi)$)')
 pAx_f.plot(ax = fig.add_subplot(414))
 plt.title('($2\sin(2\pi t/50 + 0.3\pi)$ + N(0,$4.2ˆ2$))($0.2 + 0.1t$)')
 fig.tight_layout(pad = 1.5)
-plt.xlabel('Time'); plt.show()
+plt.xlabel('Time'); 
+plt.savefig('pyTSA_TSComposition_fig2-11.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True);
+plt.show()

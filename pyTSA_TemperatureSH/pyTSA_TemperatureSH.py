@@ -10,9 +10,15 @@ for i in range(2, 158):
 type(temts)
 dates = pd.date_range('1850', periods = len(temts), freq = 'M')
 temts.index = dates
-temts.plot(); plt.show();
+temts.plot();
+plt.savefig('pyTSA_TemperatureSH_fig3-1.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True, legend = None); plt.show()
 dt = temts.diff(1) # the first differencing
 dt = dt.dropna()
-dt.plot(); plt.show()#savefig('TSP_TemperatureSH_fig3-3.png')
+dt.plot() 
+plt.savefig('pyTSA_TemperatureSH_fig3-2.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True, legend = None); plt.show()
 acf_pacf_fig(dt, both = False, lag = 48)
+plt.savefig('pyTSA_TemperatureSH_fig3-3.png', dpi = 1200, 
+             bbox_inches ='tight', transparent = True, legend = None); plt.show()
 kpss(dt, regression = 'c')
