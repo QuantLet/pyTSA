@@ -38,8 +38,10 @@ plt.setp(ax1.get_xticklabels(),visible = False);
 plt.ylabel('GDP')
 ax2 = plt.subplot(412,sharex = ax1); xhwfit.level.plot();
 plt.setp(ax2.get_xticklabels(),visible = False); plt.ylabel('Level')
-ax3 = plt.subplot(413,sharex = ax1); xhwfit.slope.plot();
-plt.setp(ax3.get_xticklabels(),visible = False); plt.ylabel('Slope')
+
+ax3 = plt.subplot(413,sharex = ax1);xhwfit.slope.plot();
+plt.setp(ax3.get_xticklabels(),visible = False); plt.ylabel('Trend')
+
 ax4 = plt.subplot(414, sharex = ax1); xhwfit.season.plot();
 plt.ylabel('Season') 
 fig.set_size_inches(18.5, 10.5)
