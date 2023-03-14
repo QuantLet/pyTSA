@@ -7,6 +7,7 @@ from PythonTsa.Selecting_arma import choose_arma
 from statsmodels.tsa.arima_model import ARIMA
 from PythonTsa.ModResidDiag import plot_ResidDiag
 from scipy import stats
+
 rat = pd.read_csv('USbill.csv',header = None)
 rat.tail(6)
 y = rat[:456]
@@ -17,15 +18,18 @@ y.rename(columns = {0:'time', 1:'bill'},inplace = True)
 dates = pd.date_range('1950-1',periods = len(y),freq = 'M')
 y.index = dates
 y = y['bill']
-y.plot(); plt.show()
+# plot y and save to file
+y.plot();#; plt.show()
 plt.savefig('pyTSA_USbill_fig4-16.png', dpi = 1200, 
-             bbox_inches ='tight', transparent = True, legend = None);
+              bbox_inches ='tight', transparent = True, legend = None);
+
 ly = np.log(y)
 dly = ly.diff(1)
 dly = dly.dropna()
-dly.plot(); plt.show()
+plt.figure()
+dly.plot();#; plt.show()
 plt.savefig('pyTSA_USbill_fig4-17.png', dpi = 1200, 
-             bbox_inches ='tight', transparent = True, legend = None);
+              bbox_inches ='tight', transparent = True, legend = None);
 acf_pacf_fig(dly, both = True, lag = 24)
 plt.savefig('pyTSA_USbill_fig4-18.png', dpi = 1200, 
              bbox_inches ='tight', transparent = True, legend = None);
@@ -44,7 +48,7 @@ fo = arima610.predict(start = '1988-01',end = '1988-06',typ = 'levels')
 #typ = 'linear' to predict 'dly'
 np.exp(fo)
 arima610.plot_predict(start = '1980-01', end = '1988-06')
-plt.show()
+
 plt.savefig('pyTSA_USbill_fig4-20.png', dpi = 1200, 
              bbox_inches ='tight', transparent = True, legend = None);
 res = sm.tsa.arma_order_select_ic(dly, max_ar = 6, max_ma = 7,
@@ -52,4 +56,5 @@ ic = ['aic', 'bic', 'hqic'], trend = 'nc')
 res.aic_min_order
 res.bic_min_order
 res.hqic_min_order
+
 
