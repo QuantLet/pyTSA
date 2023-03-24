@@ -7,7 +7,7 @@ Description:         'This Quantlet builds plots time series and ACF of Chinese 
 
 Keywords:            'time series, autocorrelation, Chinese GDP, plot, visualisation'
 
-Author:              Huang Changquan, Alla Petukhina
+Author:              Huang Changquan, Alla Petukhina, Patrick Woitschik, WK Härdle
 
 Datafile:            gdpquarterlychina1992.1-2017.4.csv
 
