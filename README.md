@@ -1,0 +1,1 @@
+This repository contains Quantlets for the book  Applied time series analysis and forecasting with Python. Cham: Springer (2022) from Prof.  C. Huang,   Dr. A. Petukhina. Please first install the package  PythonTSA (run pip install PythonTSA)
