@@ -10,3 +10,4 @@ Keywords:            'time series, bar chart, vizualization, lag plot'
 
 Author[New]:          Huang Changquan, Alla Petukhina
 
+Submitted:           13.04.2022
