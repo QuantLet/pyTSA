@@ -9,5 +9,5 @@ Keywords:            'time series,  stationarity, autocorrelation,  simulation, 
 
 Author[New]:         Huang Changquan, Alla Petukhina
 
-
+Submitted:           24.08.2022
 
