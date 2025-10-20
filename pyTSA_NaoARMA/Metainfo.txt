@@ -9,5 +9,5 @@ Keywords:            'time series,  stationarity, autocorrelation, PACF, ACF, AR
 
 Author[New]:         Huang Changquan, Alla Petukhina
 
-
+Submitted:           22.08.2022
 
