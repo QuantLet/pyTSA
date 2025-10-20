@@ -11,4 +11,4 @@ Author[New]:         Huang Changquan, Alla Petukhina
 
 Datafile:            BitcoinPrice17-6-23-18-6-22.xlsx
 
-
+Submitted:           24.08.2022
