@@ -11,4 +11,5 @@ Author[New]:         Huang Changquan, Alla Petukhina
 
 Datafile:            gdpquarterlychina1992.1-2017.4.csv
 
+Submitted:           24.08.2022
 
