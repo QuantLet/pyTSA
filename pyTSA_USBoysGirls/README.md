@@ -9,7 +9,7 @@ Name of Quantlet: pyTSA_USBoysGirls
 
 Published in: Applied Time Series Analysis and Forecasting with Python
 
-Description: This Quantlet produces time series plot, the bar charts and lag plots to vizualize a data of
+Description: This Quantlet produces time series plot, the bar charts and lag plots to vizualize a data of the numbers of boys and girls born in USA per year from 1940 to 2002.
 
 Keywords: time series, bar chart, vizualization, lag plot
 
